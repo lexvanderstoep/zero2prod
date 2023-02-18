@@ -1,5 +1,8 @@
 # Rust build files
 /target
 
+# Cargo build files
+/Cargo.lock
+
 # IntelliJ project files
 /.idea
