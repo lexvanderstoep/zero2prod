@@ -12,7 +12,7 @@ async fn main() -> std::io::Result<()> {
             .route("/", web::get().to(greet))
             .route("/{name}", web::get().to(greet))
     })
-        .bind("localhost:8000")?
-        .run()
-        .await
+    .bind("localhost:8000")?
+    .run()
+    .await
 }
